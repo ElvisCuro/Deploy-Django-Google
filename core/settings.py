@@ -134,7 +134,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:5173',
-    # 'https://deploy-django-google.onrender.com/'
+    'https://deploy-django-google.onrender.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -142,7 +142,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:5173',
-    # 'https://deploy-django-google.onrender.com/'
+    'https://deploy-django-google.onrender.com'
 ]
 
 
