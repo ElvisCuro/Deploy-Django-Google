@@ -121,10 +121,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Cambiar a MySQL
-        'NAME': 'db_user_google_facebook',                  # Nombre de la base de datos
-        'USER': 'root',              # Usuario de la base de datos
-        'PASSWORD': '',             # Contraseña del usuario
-        'HOST': '127.0.0.1',                  # Host donde se ejecuta MySQL (generalmente localhost)
+        'NAME': 'bukiytvjzs2kjuxdnuwm',                  # Nombre de la base de datos
+        'USER': 'uppo3g883fin9aye',              # Usuario de la base de datos
+        'PASSWORD': 'cBPOywekgqsYcuqCruio',             # Contraseña del usuario
+        'HOST': 'bukiytvjzs2kjuxdnuwm-mysql.services.clever-cloud.com',                  # Host donde se ejecuta MySQL (generalmente localhost)
         'PORT': '3306',                       # Puerto de MySQL (generalmente 3306)
     }
 }
@@ -134,7 +134,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:5173',
-    'https://deploy-django-google.onrender.com/'
+    # 'https://deploy-django-google.onrender.com/'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -142,7 +142,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:5173',
-    'https://deploy-django-google.onrender.com/'
+    # 'https://deploy-django-google.onrender.com/'
 ]
 
 
