@@ -191,8 +191,10 @@ MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'dist'),
+    os.path.join(BASE_DIR, 'dist', 'assets'),  # Ruta a la carpeta 'assets' donde están los archivos estáticos
 ]
+
+
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticatedOrReadOnly'
